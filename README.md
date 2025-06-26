@@ -1,3 +1,4 @@
-Node.js and React application with JWT authentication, uses thrid-party API for retrieving movie data.
-API: Nodejs, Express, Mongoose, Passport, MongoDB.
-Front: React and React Spring for animations.
+# Node.js and React Application
+With JWT authentication and uses thrid-party API for retrieving movie data. <br>
+<ins>API</ins>: Nodejs, Express, Mongoose, Passport, MongoDB. <br>
+<ins>Front</ins>: React and React Spring for animations.
