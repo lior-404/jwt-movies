@@ -1,0 +1,64 @@
+.drawer {
+  /* background-color: #404854; */
+  background-color: #242424;
+}
+
+.movie-item {
+  background-color: #404854;
+  margin: 1.5rem 0 0 0;
+  width: 300px;
+  min-width: 150px;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px;
+  position: relative;
+}
+
+.movie-pg {
+  width: 100%;
+  min-width: 2000px;
+  height: 100vh;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.movie-overview {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.7rem;
+  overflow: auto;
+  max-height: 100%;
+  transform: translateY(102%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-item:hover .movie-overview {
+  transform: translateY(0%);
+}
+
+.tag {
+  background-color: black;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.tag.green {
+  color: #25f824;
+}
+
+.tag.orange {
+  color: orange;
+}
+
+.tag.red {
+  color: red;
+}
